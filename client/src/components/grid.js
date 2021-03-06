@@ -4,7 +4,10 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { PLAYING } from '../constants/gameStatus';
 import en from '../en';
-import { BLOCK_WIDTH } from '../constants/appConstants';
+import {
+  BLOCK_WIDTH_SMALL,
+  BLOCK_WIDTH_LARGE
+} from '../constants/appConstants';
 
 import './grid.css';
 
@@ -14,6 +17,12 @@ export class Grid extends React.Component {
     if (!grid) return;
 
     const tetrominoGrid = tetrominoTypes[currentTetromino]?.[rotation] || [];
+
+    const BLOCK_WIDTH = window.matchMedia('(max-width: 1366px)').matches
+      ? BLOCK_WIDTH_SMALL
+      : BLOCK_WIDTH_LARGE;
+
+    console.log(BLOCK_WIDTH);
 
     return grid.map((row, j) => {
       return row.map((square, i) => {
@@ -46,6 +55,7 @@ export class Grid extends React.Component {
 
   render() {
     const { gameStatus } = this.props;
+
     return (
       <div>
         {gameStatus !== PLAYING && (

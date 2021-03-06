@@ -4,11 +4,8 @@
 
 .fill {
   border-style: inset;
-  /* border-width: 3px; */
   border-width: 4px;
-  /* width: 14px; */
   width: 22px;
-  /* height: 14px; */
   height: 22px;
 }
 
@@ -26,4 +23,12 @@
   font-size: 16px;
   text-align: center;
   padding-top: 75%;
+}
+
+@media (max-width: 1366px) {
+  .fill {
+    border-width: 3px;
+    width: 14px;
+    height: 14px;
+  }
 }

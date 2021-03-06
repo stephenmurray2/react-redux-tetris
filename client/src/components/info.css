@@ -10,3 +10,9 @@
   font-size: 16px;
   padding: 0px 20px 0px 0px;
 }
+
+@media (max-width: 1366px) {
+  .section {
+    font-size: 12px;
+  }
+}

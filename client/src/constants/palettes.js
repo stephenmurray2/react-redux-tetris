@@ -58,14 +58,14 @@ export const palettes = [
   {
     // maroon & grey
     I: '#B1B5BB',
-    J: '#C4C7CC',
+    J: '#D5D8DE',
     L: '#C6DDE6',
     O: '#F0E6EC',
     S: '#F6FAFF',
     T: '#D1B3C7',
     Z: '#E0CDDA',
-    appBg: '#4C1027',
-    gridBg: '#651634',
+    appBg: '#330B1A',
+    gridBg: '#4C1027',
     info: '#ffffff',
     link: '#F0E6EC'
   }

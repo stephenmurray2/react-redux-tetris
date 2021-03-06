@@ -1,7 +1,7 @@
 export const GAME_WIDTH = 15;
 export const GAME_HEIGHT = 25;
-// export const BLOCK_WIDTH = 20;
-export const BLOCK_WIDTH = 30;
+export const BLOCK_WIDTH_SMALL = 20;
+export const BLOCK_WIDTH_LARGE = 30;
 export const SHADOW_WIDTH = 3;
 export const DELAY = 10;
 export const DROP_INTERVAL_DEFAULT = 300;

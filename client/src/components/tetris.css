@@ -17,24 +17,18 @@ button {
   border: none;
 }
 
-/* TODO: define certain styles according to media size */
 #root {
   margin: 0 auto;
   overflow: auto;
   position: relative;
   top: 20px;
-  /* width: 300px; */
   width: 450px;
-  /* height: 500px; */
-  /* height: 800px; */
 }
 
 .tetris-container {
   overflow: hidden;
   position: relative;
-  /* width: 300px; */
   width: 450px;
-  /* height: 500px; */
   height: 750px;
 }
 
@@ -50,4 +44,17 @@ button {
 
 .instructions-panel .panel span {
   padding: 0px 0px 0px 4px;
+}
+
+@media (max-width: 1366px) {
+  #root {
+    width: 300px;
+  }
+  .tetris-container {
+    width: 300px;
+    height: 500px;
+  }
+  .instructions-panel {
+    font-size: 10px;
+  }
 }
