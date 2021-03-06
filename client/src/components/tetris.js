@@ -45,8 +45,6 @@ export class Tetris extends Component {
   }
 
   _onkeydown(e) {
-    e.preventDefault();
-
     const {
       onMoveLeft,
       onMoveRight,
@@ -145,7 +143,15 @@ export class Tetris extends Component {
             <span>{en['instructions_pause']}</span>
             <span>|</span>
           </div>
-          <div className="panel">{en['source_code']}</div>
+          <div className="panel">
+            Developed by Stephen Murray, source code on{' '}
+            <a
+              style={{ color: palette['link'] }}
+              href="https://github.com/stephenmurray2/react-redux-tetris"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     );

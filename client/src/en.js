@@ -6,8 +6,7 @@ const en = {
   instructions_right: 'Right',
   instructions_accelerate: 'Accelerate',
   instructions_rotate: 'Rotate',
-  instructions_pause: 'Pause',
-  source_code: 'Developed by Stephen Murray, source code on GitHub'
+  instructions_pause: 'Pause'
 };
 
 export default en;
