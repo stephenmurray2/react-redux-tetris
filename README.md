@@ -2,7 +2,7 @@
 
 ## Overview
 
-A ReactJS implementation of the classic game Tetris. Implementation details of note:
+A ReactJS implementation of the classic game Tetris. Play it [here](https://main.d39hvhh21byela.amplifyapp.com/). Implementation details of note:
 
 - State management implemented with Redux
 - State immutability achieved with plain JS
@@ -18,7 +18,7 @@ A ReactJS implementation of the classic game Tetris. Implementation details of n
 
 ## How to run
 
-Run the folloinwg terminal commands:
+Run the following terminal commands:
 
 ```
 git clone git@github.com:stephenmurray2/react-redux-tetris.git
