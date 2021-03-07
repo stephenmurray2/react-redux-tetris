@@ -22,8 +22,6 @@ export class Grid extends React.Component {
       ? BLOCK_WIDTH_SMALL
       : BLOCK_WIDTH_LARGE;
 
-    console.log(BLOCK_WIDTH);
-
     return grid.map((row, j) => {
       return row.map((square, i) => {
         const blockType =
