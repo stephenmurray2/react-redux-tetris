@@ -116,7 +116,6 @@ export default function root(state = {}, { type, payload }) {
 
       const newScore =
         score + 10 + (LINE_CLEAR_BONUS[numRemovedLines - 1] || 0);
-      console.log(dropInterval);
       return {
         ...state,
         score: newScore,
