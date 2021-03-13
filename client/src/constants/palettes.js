@@ -68,5 +68,19 @@ export const palettes = [
     gridBg: '#4C1027',
     info: '#ffffff',
     link: '#F0E6EC'
-  }
+  },
+  {
+    // cadpat
+    I: '#49642C',
+    J: '#2B362A',
+    L: '#638F3F',
+    O: '#748C4A',
+    S: '#3D5425',
+    T: '#273129',
+    Z: '#565336',
+    appBg: '#202C1C',
+    gridBg: '#303F1D',
+    info: '#96AE6A',
+    link: '#9C9162'
+  }    
 ];
